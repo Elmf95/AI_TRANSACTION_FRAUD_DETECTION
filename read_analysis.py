@@ -68,3 +68,6 @@ if fraud_column in data.columns:
         plt.show()
 else:
     print("La colonne de fraude n'a pas été trouvée.")
+
+    print("\nVérification des valeurs uniques dans isFraud après lecture :")
+print(data["isFraud"].value_counts())
