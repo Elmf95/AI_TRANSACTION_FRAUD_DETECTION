@@ -79,6 +79,10 @@ model = CatBoostClassifier(
 print("Entraînement du modèle CatBoost...")
 model.fit(train_data, eval_set=test_data, verbose=100)
 
+# Sauvegarder le modèle entraîné
+model.save_model("catboost_fraud_detection.cbm")
+print("Modèle sauvegardé dans 'catboost_fraud_detection.cbm'")
+
 # Évaluation du modèle
 print("\nÉvaluation sur les données de test :")
 print(f"AUC : {model.get_best_score()['validation']['AUC']}")
