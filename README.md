@@ -31,6 +31,8 @@ Ce projet utilise le machine learning pour détecter les transactions frauduleus
 git clone https://github.com/ton_nom_utilisateur/AI_TRANSACTION_FRAUD_DETECTION.git
 cd AI_TRANSACTION_FRAUD_DETECTION
 
+---
+
 ## **Installation et utilisation**
 
 ### **1. Installer les dépendances**
