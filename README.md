@@ -27,11 +27,10 @@ Ce projet utilise le machine learning pour détecter les transactions frauduleus
 ## **Comment utiliser ce projet**
 
 ### **1. Cloner le dépôt**
+
 ```bash
 git clone https://github.com/ton_nom_utilisateur/AI_TRANSACTION_FRAUD_DETECTION.git
-cd AI_TRANSACTION_FRAUD_DETECTION
-
----
+````
 
 ## **Installation et utilisation**
 
@@ -40,7 +39,7 @@ Assurez-vous d'avoir Python 3.9+ installé. Installez les bibliothèques nécess
 
 ```bash
 pip install -r requirements.txt
-
+````
 
 ### **2. Lancer l'application**
 
@@ -48,7 +47,7 @@ Exécutez le script UI.py pour ouvrir l'interface Gradio :
 
 ```bash
 python UI.py
-
+````
 ### **3. Utiliser l'interface**
 
 Chargez un fichier CSV contenant les transactions à analyser.
