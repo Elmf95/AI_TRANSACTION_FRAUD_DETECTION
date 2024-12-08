@@ -50,7 +50,7 @@ python UI.py
 ````
 ### **3. Utiliser l'interface**
 
-Chargez un fichier CSV contenant les transactions à analyser.
+Chargez un fichier CSV contenant les transactions à analyser, le fichier transaction_data_processed.csv est fourni dans le repo pour tester facilement le script.
 Si vous n’avez pas de fichier, utilisez transaction_data_processed.csv inclus dans le projet.
 Le modèle prédira quelles transactions sont frauduleuses (isFraud=1).
 
