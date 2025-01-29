@@ -89,8 +89,7 @@ Vous pouvez héberger ce projet :
 
 1. **Localement** : En exécutant le script `UI.py`.
 2. **En ligne** :
-   - LE FICHIER A ETE SEPARE EN DEUX IL FAUT LE RECONSTITUER AVEC LA COMMANDE SUIVANTE copy /b catboost_fraud_aa + catboost_fraud_ab catboost_fraud.cbm
----
+   -- LE FICHIER A ETE SEPARE EN DEUX CAR IL DEPASSAIT LES 2GB IL FAUT LE RECONSTITUER AVEC LA COMMANDE SUIVANTE depuis le POWERSHELL DE WINDOWS copy /b catboost_fraud_aa + catboost_fraud_ab catboost_fraud_detection.cbm
 
 ## Démo pour recruteurs
 
