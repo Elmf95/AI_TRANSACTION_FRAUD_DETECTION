@@ -4,6 +4,8 @@
 
 Ce projet utilise le machine learning pour détecter les transactions frauduleuses à partir de données financières. Le modèle a été entraîné avec **CatBoost**, un algorithme performant pour les données tabulaires, et offre une interface interactive basée sur **Gradio**. Il permet aux utilisateurs de tester le modèle avec leurs propres fichiers CSV ou avec un fichier d'exemple fourni dans le repository.
 
+ - LE FICHIER A ETE SEPARE EN DEUX CAR IL DEPASSAIT LES 2GB IL FAUT LE RECONSTITUER AVEC LA COMMANDE SUIVANTE depuis le POWERSHELL DE WINDOWS copy /b catboost_fraud_aa + catboost_fraud_ab catboost_fraud_detection.cbm
+
 ---
 
 ## **Fonctionnalités**
@@ -87,9 +89,7 @@ Vous pouvez héberger ce projet :
 
 1. **Localement** : En exécutant le script `UI.py`.
 2. **En ligne** :
-   - Utilisez **Streamlit Cloud** ou **Hugging Face Spaces** pour le rendre public.
-   - Fournissez l’URL générée aux utilisateurs ou recruteurs.
-
+   - LE FICHIER A ETE SEPARE EN DEUX IL FAUT LE RECONSTITUER AVEC LA COMMANDE SUIVANTE copy /b catboost_fraud_aa + catboost_fraud_ab catboost_fraud.cbm
 ---
 
 ## Démo pour recruteurs
