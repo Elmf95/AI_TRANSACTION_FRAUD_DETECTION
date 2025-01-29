@@ -1,2 +1,4 @@
 venv/
 catboost_fraud_detection.cbm/
+catboost_fraud_detection_aa/
+catboost_fraud_detection_ab/
