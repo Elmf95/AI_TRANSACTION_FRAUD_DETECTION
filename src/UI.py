@@ -19,11 +19,7 @@ with gr.Blocks() as demo:
     gr.Markdown("# Détection de Fraude - Interface Utilisateur")
     with gr.Row():
         with gr.Column():
-            input_file = gr.File(label="Uploader un fichier CSV")
-        with gr.Column():
-            dropdown = gr.Dropdown(
-                choices=["Transaction A", "Transaction B"], label="Choix Exemple"
-            )
+            input_file = gr.File(label="Uploader un fichier CSV ")
     submit_button = gr.Button("Prédire")
 
     # Zone de sortie
